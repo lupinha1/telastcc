@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+body{
+    margin: 0px;
+}
+
+.cabecalho{
+    background-color: #107AD1;
+}
+
+.informacoes-usuario{
+    max-width: 10em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.informacoes-usuario p{
+    margin: 5px;
+}
