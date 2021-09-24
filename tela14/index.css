@@ -5,10 +5,19 @@
 
 body{
     margin: 0px;
+    background-color: #404756;
+}
+
+.container{
+    margin: 2em 3em 4em 3em;
 }
 
 .cabecalho{
     background-color: #107AD1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 2em 0px 2em;
 }
 
 .informacoes-usuario{
@@ -20,4 +29,29 @@ body{
 
 .informacoes-usuario p{
     margin: 5px;
+}
+
+.imagem-cabecalho img{
+    width: 100px;
+}
+.imagem-cabecalho{
+    margin-right: 2em;
+    
+    margin-top: 50px;
+}
+
+.email-telefone{
+    display: flex;
+    flex-direction: column;
+}
+
+.et{
+    background-color: #0D62A7;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.cab-esquerda{
+    display: flex;
+    flex-direction: row;
 }
