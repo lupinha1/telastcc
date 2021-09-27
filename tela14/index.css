@@ -182,21 +182,55 @@ body{
 
 .usuario-chat img{
     width: 120px;
+    height: 120px;
 }
 
 .usuario-chat h1{
     font-size: 50px;
     font-weight: 700;
+    margin-left: 0.5em;
 }
 
 .usuario-chat{
     display: flex;
     flex-direction: row;
-    padding: 0.7em 0em 0em 1em;
+    padding: 0.5em 0em 0em 1em;
+    align-items: center;
 }
 
 .box-mensagem{
     background-color: #2A3244;
     border-radius: 20px;
     max-width: 800px;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-mensagem-baixo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin: 0em 0em 0.8em 0.8em;
+}
+
+.box-mensagem-baixo img{
+    margin-left: 0.5em;
+}
+
+.box-mensagem-baixo input{
+    border-radius: 50px;
+    border: none;
+    background-color: #107AD1;
+    width: 580px;
+    height: 72px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box-mensagem-baixo input::placeholder{
+    color: white;
 }
