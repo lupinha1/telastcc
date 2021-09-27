@@ -65,7 +65,9 @@ body{
     text-align: center;
     margin-top: 1em;
     padding-top: 1em;
-    min-width: 12em;
+    min-width: 13em;
+    font-size: 21px;
+    font-weight: 700;
 }
 
 .cab-esquerda{
@@ -78,8 +80,8 @@ body{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 2em 2em 2em 2em;
-    margin-top: 7em;
+    padding: 2em 2em 2em 3em;
+    margin-top: 10em;
 }
 
 .nm{
@@ -95,4 +97,106 @@ body{
 .es{
     font-weight: 600;
     font-size: 50px;
+}
+
+.baixo-painel{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.informacoes-painel{
+    min-height: 25em;
+}
+
+.informacoes-painel h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.redes-sociais{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.rede-social{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.rede-social img{
+    width: 55px;
+}
+
+.idiomas h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 1.2em;
+    margin-top: 1em;
+}
+
+.idiomas h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.idiomas{
+    line-height: 7px;
+    margin-left: 15em;
+}
+
+.div-vagas-interesse h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.div-vagas-interesse{
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: row;
+}
+
+.vaga{
+    font-size: 50px;
+    font-weight: 400;
+    background-color: #107AD1;
+    border-radius: 40px;
+    text-align: center  ;
+    min-width: 15%;
+    margin-right: 0.5em;
+}
+
+.div-mensagem{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.usuario-chat img{
+    width: 120px;
+}
+
+.usuario-chat h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.usuario-chat{
+    display: flex;
+    flex-direction: row;
+    padding: 0.7em 0em 0em 1em;
+}
+
+.box-mensagem{
+    background-color: #2A3244;
+    border-radius: 20px;
+    max-width: 800px;
 }
