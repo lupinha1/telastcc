@@ -30,7 +30,7 @@ body{
 }
 
 .informacoes-usuario{
-    max-width: 50em;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     color: white;
@@ -48,7 +48,7 @@ body{
 .imagem-cabecalho{
     margin-right: 2em;
     position: absolute;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .email-telefone{
@@ -75,109 +75,101 @@ body{
     flex-direction: row;
 }
 
-.painel-central{
-    background-color: #2A3244;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 2em 2em 2em 3em;
-    margin-top: 10em;
-}
-
 .nm{
-    font-weight: 700;
     font-size: 60px;
+    font-weight: 700;
 }
 
 .pr{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.painel-central{
+    margin-top: 10em;
+}
+
+.painel-central h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.caracteristicas h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.caracteristicas p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.esquerda-cima{
+    background-color: #2A3244;
+    max-width: 40vw;
+    border-radius: 20px;
+    padding: 1em 2em 1em 2em;
+}
+
+.painel-boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.descricao-direita{
+    background-color: #2A3244;
+    border-radius: 20px;
+    padding: 1em 2em 1em 2em;
+    margin-left: 3em;
+}
+
+.descricao-direita{
+    line-height: 1em
+}
+
+.caracteristicas-direita{
+    margin-top: 3em;
+}
+
+.caracteristicas-direita h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.caracteristicas-direita p{
     font-weight: 400;
     font-size: 40px;
 }
 
-.es{
-    font-weight: 600;
-    font-size: 50px;
-}
 
-.baixo-painel{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-}
-
-.informacoes-painel{
-    min-height: 25em;
-}
-
-.informacoes-painel h1{
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1px;
-}
-
-.redes-sociais{
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1px;
-}
-
-.rede-social{
-    font-size: 30px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-}
-
-.rede-social img{
-    width: 55px;
-}
-
-.idiomas h1{
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 1.2em;
-    margin-top: 1em;
-}
-
-.idiomas h2{
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.idiomas{
-    line-height: 7px;
-    margin-left: 15em;
-}
-
-.div-vagas-interesse h1{
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.div-vagas-interesse{
+.box-dados-empresa{
+    background-color: #2A3244;
+    border-radius: 20px;
+    margin-left: 1.3em;
     display: flex;
     flex-direction: column;
-}
-
-.vagas{
-    display: flex;
-    flex-direction: row;
-}
-
-.vaga{
-    font-size: 50px;
+    line-height: 0.1em;
+    padding: 1em 1em 1em 2em;
+    font-size: 40px;
     font-weight: 400;
-    background-color: #107AD1;
-    border-radius: 40px;
-    text-align: center  ;
-    min-width: 15%;
-    margin-right: 0.5em;
 }
+
+.box-dados-empresa span{
+    font-weight: 700;
+}
+
+.dados-empresa h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
 
 .div-mensagem{
     font-size: 60px;
     font-weight: 700;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .usuario-chat img{
@@ -212,11 +204,11 @@ body{
    display: flex;
    flex-direction: row;
    align-items: center;
-   margin: 0em 0em 0.8em 0.8em;
+   margin: 0em 0em 0.8em 0.5em;
 }
 
 .box-mensagem-baixo img{
-    margin-left: 0.5em;
+    margin-left: 0.2em;
 }
 
 .box-mensagem-baixo input{
@@ -233,4 +225,24 @@ body{
 
 .box-mensagem-baixo input::placeholder{
     color: white;
+}
+
+.enviar-curriculo-linkedin{
+    display: flex;
+    flex-direction: row;
+    background-color: #0D62A7;
+    border-radius: 20px;
+    margin-left: 1em;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1em;
+    min-width: 44vw;
+    min-height: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar-curriculo-linkedin img{
+    width: 77px;
 }
